@@ -2,6 +2,7 @@ import HTTP from 'http';
 import initBot from "./bot.js";
 
 
+
 const PORT = process.PORT || 5500;
 const server = HTTP.createServer((request, response) => {
 	response.writeHead(200, {
@@ -14,5 +15,9 @@ const server = HTTP.createServer((request, response) => {
 
 
 initBot();
+
+server.listen(PORT, () => {
+	console.log(`AFKBot is running on port ${PORT}`);
+})
 
 export default server;
