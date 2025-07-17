@@ -15,4 +15,4 @@ const server = HTTP.createServer((request, response) => {
 export default (): void => {
 	server.listen(PORT, () => console.log("Server for UptimeRobot is ready!"));
 };
-module.exports = app;
+export default app;
