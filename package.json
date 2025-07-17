@@ -7,12 +7,16 @@
 	
 	"scripts": {
 		"start": "node ./src/index.ts",
-		"dev": "node --inspect --loader tsx ./src/index.ts"
+		"dev": "node --inspect --loader tsx ./src/index.ts",
+		"build": "tsx build src/index.ts"
 	},
 
 	"dependencies": {
-		"mineflayer": "^4.20.0",
+		"mineflayer": "^4.20.0"
+	},
+	"devDependencies": {
 		"tsx": "^4.7.1",
-		"@types/node": "^24.0.14"
+		"@types/node": "^24.0.14",
+		"@vercel/node": "^3.0.0"
 	}
 }

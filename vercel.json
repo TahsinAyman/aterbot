@@ -1,16 +1,8 @@
 {
   "version": 2,
-   "builds": [
-    {
-      "src": "src/index.ts",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["src/**/*"] }
+  "functions": {
+    "api/*.ts": {
+      "runtime": "@vercel/node@2.15.9"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/src/index.ts"
-    }
-  ]
+  }
 }
