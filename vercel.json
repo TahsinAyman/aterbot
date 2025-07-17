@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "src/web.ts",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["src/**/*"] }
-    }
-  ],
   "rewrites": [
     {
       "source": "/(.*)",
