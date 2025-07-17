@@ -1,6 +1,6 @@
 import Mineflayer from 'mineflayer';
-import { sleep, getRandom } from "./utils";
-import CONFIG from "../config.json" assert {type: 'json'};
+import { sleep, getRandom } from "./utils.js";
+import CONFIG from "../config.json" with { type: 'json' };
 
 let loop: NodeJS.Timeout;
 let bot: Mineflayer.Bot;
