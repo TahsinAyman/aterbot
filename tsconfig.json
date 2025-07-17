@@ -1,10 +1,10 @@
 {
-	"compilerOptions": {
-		"strict": false,
+  "compilerOptions": {
+    "strict": false,
 
-		"module": "NodeNext",
+    "module": "NodeNext",
 
-		"noEmit": true,
-		"resolveJsonModule": true
-	}
+    "noEmit": true,
+    "resolveJsonModule": true
+  }
 }
