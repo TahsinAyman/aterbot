@@ -1,5 +1,5 @@
 import HTTP from 'http';
-import initBot from "./bot.ts";
+import initBot from "./bot";
 
 
 
