@@ -1,4 +1,4 @@
-import HTTP from 'node:http';
+import HTTP from 'http';
 import initBot from "./bot.ts";
 
 
